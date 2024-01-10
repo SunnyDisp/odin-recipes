@@ -2,6 +2,8 @@ body {
     font-family: "Trebuchet MS", Garamond, sans-serif;
     background-color: rgba(220, 220, 220, 0.527);
     font-size: 24px;
+    color: black;
+    text-align: center;
 }
 
 a {
@@ -10,14 +12,31 @@ a {
 
 .title {
     font-family: "Courier New", Georgia, serif;
-    font-weight: 1000;
-    background-color: white;
-    text-align: center;
-}
-
-.index.content {
     font-weight: bold;
-    text-align: center;
-    color: black;
+    background-color: white;
 }
 
+.content {
+    font-weight: bold;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+.recipe.description {
+    font-style: italic;
+}
+
+li {
+    text-align: left;
+}
+
+.back-to-homepage {
+    color: gray;
+    font-size: 14px;
+}
