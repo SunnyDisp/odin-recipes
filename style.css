@@ -1,0 +1,22 @@
+body {
+    font-family: "Trebuchet MS", Garamond, sans-serif;
+    background-color: rgba(220, 220, 220, 0.527);
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: "Courier New", Georgia, serif;
+    font-weight: 1000;
+    background-color: white;
+    text-align: center;
+}
+
+.index.content {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
